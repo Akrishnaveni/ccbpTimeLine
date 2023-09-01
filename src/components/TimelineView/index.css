@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.chrono-container {
+  width: 400px;
+  height: 600px;
+}
+.time-line-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1110px;
+  height: 100vh;
+}
+.time-heading {
+  text-align: center;
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2.7;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .time-heading {
+    font-size: 20px;
+  }
+  .ccbp-heading {
+    font-size: 30px;
+  }
+}
+.ccbp-heading {
+  color: #2b237c;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0px;
+}
